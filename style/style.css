@@ -1,0 +1,43 @@
+/* command dibawah berfungsi untuk mengatur tampilan dan gaya huruf pada elemen body */
+body{
+    margin: 0;
+    padding: 0;
+    height: 110vh;
+    background: linear-gradient(rgb(20, 88, 119), rgb(10, 33, 54));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* command dibawah berfungsi untuk mengatur tampilan dari class container */
+.container{
+    width: 900px;
+    margin: 80px auto;
+    background-color: rgb(128, 83, 147);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* command dibawah berfungsi untuk mengatur letak dan warna dari elemen h2 */
+h2{
+    text-align: center;
+    color: rgb(12, 11, 11);
+}
+
+/* command dibawah berfungsi untuk mengatur tampilan dari elemen table */
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* command dibawah berfungsi untuk mengatur letak dan tampilan dari elemen th dan td */
+th,td{
+    padding: 12px 20px;
+    text-align: center;
+    border-style: ridge;
+    border-color: rgb(24, 59, 89);
+}
+
+/* command dibawah berfungsi untuk mengatur letak dan tampilan border dari elemen td img  */
+td img{
+    border-radius: 15px;
+    width: 80px;
+}
